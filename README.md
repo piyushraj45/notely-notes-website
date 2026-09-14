@@ -6,9 +6,9 @@
 
 ## 🚀 About The Project
 
-**Notely** is a full-stack web application that provides users with a simple and intuitive platform to manage their personal notes.
+**Notely** is a full-stack web application designed to provide users with a simple and intuitive platform for managing personal notes.
 
-The project includes a React-based frontend, a Node.js/Express backend, MongoDB database integration, and JWT-based authentication for secure user access.
+It includes a React frontend, Node.js/Express backend, MongoDB database integration, and JWT-based authentication for secure user access.
 
 ---
 
@@ -26,31 +26,24 @@ The project includes a React-based frontend, a Node.js/Express backend, MongoDB 
 - 🌙 Dark Mode
 - ☀️ Light Mode
 - 📱 Responsive User Interface
+
 ---
 
-### Frontend      
+## 🛠️ Tech Stack
+
+### Frontend
 
 - ⚛️ React.js
 - 🟨 JavaScript
 - 🎨 CSS
 - 🔗 REST API
 
-## ▶️ How to Run
-cd frontend
-npm install
-npm run dev
-
 ### Backend
+
 - 🟢 Node.js
 - 🚂 Express.js
 - 🍃 MongoDB
 - 🔑 JWT Authentication
-
-## ▶️ How to Run
-```bash
-cd backend
-npm install
-npm start
 
 ### Tools
 
@@ -60,23 +53,18 @@ npm start
 
 ---
 
-## 🏗️ Project Architecture
+## ▶️ How to Run
 
-```text
-Notely
-│
-├── frontend/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   └── ...
-│
-├── backend/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── ...
-│
-├── .gitignore
-└── README.md
+### Backend
+
+```bash
+cd backend
+npm install
+npm start
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
